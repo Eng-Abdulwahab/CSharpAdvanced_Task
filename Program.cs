@@ -93,7 +93,7 @@ namespace CSharpAdvanced_Task
                         RunDelegateQ20();
                         break;
                     case "0":
-                        Console.WriteLine("Exiting program. Good luck with the task!");
+                        Console.WriteLine("Exiting program.");
                         return;
                     default:
                         Console.WriteLine("Invalid choice! Please enter a valid option.");
