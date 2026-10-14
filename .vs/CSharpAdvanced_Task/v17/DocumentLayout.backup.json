@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyProjects\\CSharpAdvanced_Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\collections\\q3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:collections\\q3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\collections\\q1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:collections\\q1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\collections\\q6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:collections\\q6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\collections\\q5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:collections\\q5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\collections\\q4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:collections\\q4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\collections\\q2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:collections\\q2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\stack_and_queue\\q8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:stack_and_queue\\q8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\delegates_and_oop\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:delegates_and_oop\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\delegates_and_oop\\libraryengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:delegates_and_oop\\libraryengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\delegates_and_oop\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:delegates_and_oop\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\generics\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:generics\\range.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\stack_and_queue\\q7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:stack_and_queue\\q7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|c:\\myprojects\\csharpadvanced_task\\generics\\fixedsizelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7375C515-922F-44E8-8502-F1EA162E1715}|CSharpAdvanced_Task.csproj|solutionrelative:generics\\fixedsizelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q6.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q6.cs",
+              "RelativeDocumentMoniker": "Collections\\Q6.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q6.cs",
+              "RelativeToolTip": "Collections\\Q6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:16:55.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q5.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q5.cs",
+              "RelativeDocumentMoniker": "Collections\\Q5.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q5.cs",
+              "RelativeToolTip": "Collections\\Q5.cs",
+              "ViewState": "AgIAAAoAAAAANTMzMzPjvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:16:52.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Q4.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q4.cs",
+              "RelativeDocumentMoniker": "Collections\\Q4.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q4.cs",
+              "RelativeToolTip": "Collections\\Q4.cs",
+              "ViewState": "AgIAABYAAACAmJmZmZktwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:16:47.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q3.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q3.cs",
+              "RelativeDocumentMoniker": "Collections\\Q3.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q3.cs",
+              "RelativeToolTip": "Collections\\Q3.cs",
+              "ViewState": "AgIAACAAAACAMDMzM7MQwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T11:16:34.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q2.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q2.cs",
+              "RelativeDocumentMoniker": "Collections\\Q2.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q2.cs",
+              "RelativeToolTip": "Collections\\Q2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:45:29.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q1.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q1.cs",
+              "RelativeDocumentMoniker": "Collections\\Q1.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Collections\\Q1.cs",
+              "RelativeToolTip": "Collections\\Q1.cs",
+              "ViewState": "AgIAAAcAAAComZmZmZkywBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T10:35:02.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibraryEngine.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Delegates_And_OOP\\LibraryEngine.cs",
+              "RelativeDocumentMoniker": "Delegates_And_OOP\\LibraryEngine.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Delegates_And_OOP\\LibraryEngine.cs",
+              "RelativeToolTip": "Delegates_And_OOP\\LibraryEngine.cs",
+              "ViewState": "AgIAAAYAAAAANDMzMzMLwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T14:02:48.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookFunctions.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Delegates_And_OOP\\BookFunctions.cs",
+              "RelativeDocumentMoniker": "Delegates_And_OOP\\BookFunctions.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Delegates_And_OOP\\BookFunctions.cs",
+              "RelativeToolTip": "Delegates_And_OOP\\BookFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:52:45.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Delegates_And_OOP\\Book.cs",
+              "RelativeDocumentMoniker": "Delegates_And_OOP\\Book.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Delegates_And_OOP\\Book.cs",
+              "RelativeToolTip": "Delegates_And_OOP\\Book.cs",
+              "ViewState": "AgIAAA0AAADAmZmZmZk5wBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:50:24.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Q8.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Stack_And_Queue\\Q8.cs",
+              "RelativeDocumentMoniker": "Stack_And_Queue\\Q8.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Stack_And_Queue\\Q8.cs",
+              "RelativeToolTip": "Stack_And_Queue\\Q8.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:46:53.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADIBAAAAAAAAAAA7wD8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T11:59:08.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Q7.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Stack_And_Queue\\Q7.cs",
+              "RelativeDocumentMoniker": "Stack_And_Queue\\Q7.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Stack_And_Queue\\Q7.cs",
+              "RelativeToolTip": "Stack_And_Queue\\Q7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T13:46:43.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Range.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Generics\\Range.cs",
+              "RelativeDocumentMoniker": "Generics\\Range.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Generics\\Range.cs",
+              "RelativeToolTip": "Generics\\Range.cs",
+              "ViewState": "AgIAABUAAADAZmZmZmYSwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T12:52:33.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FixedSizeList.cs",
+              "DocumentMoniker": "C:\\MyProjects\\CSharpAdvanced_Task\\Generics\\FixedSizeList.cs",
+              "RelativeDocumentMoniker": "Generics\\FixedSizeList.cs",
+              "ToolTip": "C:\\MyProjects\\CSharpAdvanced_Task\\Generics\\FixedSizeList.cs",
+              "RelativeToolTip": "Generics\\FixedSizeList.cs",
+              "ViewState": "AgIAACUAAAAAaGZmZmb+vzcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T11:23:06.025Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

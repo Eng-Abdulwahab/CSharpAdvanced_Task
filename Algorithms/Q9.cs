@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharpAdvanced_Task.Algorithms
+{
+    public class Q9
+    {
+        public static void BubbleSort(int[] arr)
+        {
+            if (arr == null || arr.Length <= 1)
+                return;
+
+            int n = arr.Length;
+
+            bool swapped = false;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        int temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                        swapped = true;
+                    }
+
+                    if (!swapped)
+                        break;
+                }
+                
+            }
+        }
+    }
+}
