@@ -1,13 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpAdvanced_Task.Algorithms
 {
     public class Q9
     {
+        /*
+          Optimized Bubble Sort:
+          1) Early exit: if a full pass makes no swap, the array is already sorted,
+             so we stop. Best case becomes O(n) instead of O(n^2).
+          2) Shrinking range: after pass i, the last i elements are already in their
+             final place, so the inner loop stops at n - i - 1.
+          Worst / average case is still O(n^2), O(1) extra space.
+         */
         public static void BubbleSort(int[] arr)
         {
             if (arr == null || arr.Length <= 1)
@@ -15,24 +19,21 @@ namespace CSharpAdvanced_Task.Algorithms
 
             int n = arr.Length;
 
-            bool swapped = false;
-
             for (int i = 0; i < n - 1; i++)
             {
+                bool swapped = false;
+
                 for (int j = 0; j < n - i - 1; j++)
                 {
                     if (arr[j] > arr[j + 1])
                     {
-                        int temp = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = temp;
+                        (arr[j], arr[j + 1]) = (arr[j + 1], arr[j]);
                         swapped = true;
                     }
-
-                    if (!swapped)
-                        break;
                 }
-                
+
+                if (!swapped)
+                    break;
             }
         }
     }

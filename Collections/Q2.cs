@@ -7,15 +7,15 @@ namespace CSharpAdvanced_Task.Collections
     {
         public static List<int> GetEvenList(List<int> list)
         {
-            List<int> EvenList = new List<int>();
+            if (list == null) throw new ArgumentNullException(nameof(list));
 
-            foreach (int i in list)
+            List<int> evenList = new List<int>();
+            foreach (int number in list)
             {
-                if (i % 2 == 0)
-                    EvenList.Add(i);
+                if (number % 2 == 0)
+                    evenList.Add(number);
             }
-
-            return EvenList;
+            return evenList;
         }
     }
 }

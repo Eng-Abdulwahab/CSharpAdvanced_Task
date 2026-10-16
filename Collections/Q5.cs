@@ -11,7 +11,7 @@ namespace CSharpAdvanced_Task.Collections
         public static int[] RemoveDuplicates(int[] arr)
         {
             if (arr == null || arr.Length == 0)
-                return arr!;
+                return Array.Empty<int>();
 
             Array.Sort(arr);
 

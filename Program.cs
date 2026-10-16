@@ -30,74 +30,85 @@ namespace CSharpAdvanced_Task
                 Console.WriteLine("9. Test Q9: Bubble Sort");
                 Console.WriteLine("10-12. Test Q10-Q12: FixedSizeList<T>");
                 Console.WriteLine("13-15. Test Q13-Q15: Range<T>");
-                Console.WriteLine("16-17. Test Q17: Custom Delegate (GetTitle)");
+                Console.WriteLine("16. Test Q16: Book & BookFunctions");
+                Console.WriteLine("17. Test Q17: Custom Delegate (GetTitle)");
                 Console.WriteLine("18. Test Q18: Built-in Delegate Func (GetPrice)");
-                Console.WriteLine("19. Test Q19: Anonymous Method (GetAuthors)");
-                Console.WriteLine("20. Test Q20: Lambda Expression (PublicationDate)");
+                Console.WriteLine("19. Test Q19: Anonymous Method (GetISBN)");
+                Console.WriteLine("20. Test Q20: Lambda Expression (GetPublicationDate)");
                 Console.WriteLine("0. Exit");
                 Console.WriteLine("========================================");
                 Console.Write("Choose an option: ");
 
-                string choice = Console.ReadLine();
+                string? choice = Console.ReadLine();
                 Console.WriteLine();
 
-                switch (choice)
+                try
                 {
-                    case "1":
-                        RunQ1();
-                        break;
-                    case "2":
-                        RunQ2();
-                        break;
-                    case "3":
-                        Q3.Solve();
-                        break;
-                    case "4":
-                        RunQ4();
-                        break;
-                    case "5":
-                        RunQ5();
-                        break;
-                    case "6":
-                        RunQ6();
-                        break;
-                    case "7":
-                        RunQ7();
-                        break;
-                    case "8":
-                        RunQ8();
-                        break;
-                    case "9":
-                        RunQ9();
-                        break;
-                    case "10":
-                    case "11":
-                    case "12":
-                        RunFixedSizeListTests();
-                        break;
-                    case "13":
-                    case "14":
-                    case "15":
-                        RunRangeTests();
-                        break;
-                    case "17":
-                        RunDelegateQ17();
-                        break;
-                    case "18":
-                        RunDelegateQ18();
-                        break;
-                    case "19":
-                        RunDelegateQ19();
-                        break;
-                    case "20":
-                        RunDelegateQ20();
-                        break;
-                    case "0":
-                        Console.WriteLine("Exiting program.");
-                        return;
-                    default:
-                        Console.WriteLine("Invalid choice! Please enter a valid option.");
-                        break;
+                    switch (choice)
+                    {
+                        case "1":
+                            RunQ1();
+                            break;
+                        case "2":
+                            RunQ2();
+                            break;
+                        case "3":
+                            Q3.Solve();
+                            break;
+                        case "4":
+                            RunQ4();
+                            break;
+                        case "5":
+                            RunQ5();
+                            break;
+                        case "6":
+                            RunQ6();
+                            break;
+                        case "7":
+                            RunQ7();
+                            break;
+                        case "8":
+                            RunQ8();
+                            break;
+                        case "9":
+                            RunQ9();
+                            break;
+                        case "10":
+                        case "11":
+                        case "12":
+                            RunFixedSizeListTests();
+                            break;
+                        case "13":
+                        case "14":
+                        case "15":
+                            RunRangeTests();
+                            break;
+                        case "16":
+                            RunQ16();
+                            break;
+                        case "17":
+                            RunDelegateQ17();
+                            break;
+                        case "18":
+                            RunDelegateQ18();
+                            break;
+                        case "19":
+                            RunDelegateQ19();
+                            break;
+                        case "20":
+                            RunDelegateQ20();
+                            break;
+                        case "0":
+                            Console.WriteLine("Exiting program.");
+                            return;
+                        default:
+                            Console.WriteLine("Invalid choice! Please enter a valid option.");
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Something went wrong: {ex.Message}");
                 }
 
                 Console.WriteLine("\n----------------------------------------");
@@ -106,20 +117,22 @@ namespace CSharpAdvanced_Task
             }
         }
 
+        // Prints a label followed by all items of any collection
+        private static void PrintItems(string label, IEnumerable items)
+        {
+            Console.Write(label);
+            foreach (var item in items) Console.Write(item + " ");
+            Console.WriteLine();
+        }
+
         private static void RunQ1()
         {
             Console.WriteLine("--- Testing Q1: ArrayList Reverse (In-Place) ---");
             ArrayList list = new ArrayList { 10, 20, 30, 40, 50 };
 
-            Console.Write("Before Reverse: ");
-            foreach (var item in list) Console.Write(item + " ");
-            Console.WriteLine();
-
+            PrintItems("Before Reverse: ", list);
             Q1.Reverse(list);
-
-            Console.Write("After Reverse: ");
-            foreach (var item in list) Console.Write(item + " ");
-            Console.WriteLine();
+            PrintItems("After Reverse: ", list);
         }
 
         private static void RunQ2()
@@ -127,22 +140,15 @@ namespace CSharpAdvanced_Task
             Console.WriteLine("--- Testing Q2: Even Numbers Filter ---");
             List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            Console.Write("Original List: ");
-            foreach (var item in numbers) Console.Write(item + " ");
-            Console.WriteLine();
-
-            List<int> evens = Q2.GetEvenList(numbers);
-
-            Console.Write("Even List: ");
-            foreach (var item in evens) Console.Write(item + " ");
-            Console.WriteLine();
+            PrintItems("Original List: ", numbers);
+            PrintItems("Even List: ", Q2.GetEvenList(numbers));
         }
 
         private static void RunQ4()
         {
             Console.WriteLine("--- Testing Q4: Check Array Palindrome ---");
             bool result = Q4.IsPalindrome();
-            Console.WriteLine($"\nIs Palindrome? -> {result}");
+            Console.WriteLine($"\nIs Palindrome? -> {(result ? "YES" : "NO")}");
         }
 
         private static void RunQ5()
@@ -150,15 +156,8 @@ namespace CSharpAdvanced_Task
             Console.WriteLine("--- Testing Q5: Remove Duplicates ---");
             int[] arr = { 5, 2, 9, 5, 2, 3, 1, 9 };
 
-            Console.Write("Original Array: ");
-            foreach (var item in arr) Console.Write(item + " ");
-            Console.WriteLine();
-
-            int[] uniqueArr = Q5.RemoveDuplicates(arr);
-
-            Console.Write("Unique Array: ");
-            foreach (var item in uniqueArr) Console.Write(item + " ");
-            Console.WriteLine();
+            PrintItems("Original Array: ", arr);
+            PrintItems("Unique Array: ", Q5.RemoveDuplicates(arr));
         }
 
         private static void RunQ6()
@@ -166,15 +165,9 @@ namespace CSharpAdvanced_Task
             Console.WriteLine("--- Testing Q6: Remove Odd Numbers (In-Place) ---");
             ArrayList list = new ArrayList { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-            Console.Write("Before Removal: ");
-            foreach (var item in list) Console.Write(item + " ");
-            Console.WriteLine();
-
+            PrintItems("Before Removal: ", list);
             Q6.RemoveOdd(list);
-
-            Console.Write("After Removal: ");
-            foreach (var item in list) Console.Write(item + " ");
-            Console.WriteLine();
+            PrintItems("After Removal: ", list);
         }
 
         private static void RunQ7()
@@ -187,25 +180,21 @@ namespace CSharpAdvanced_Task
             queue.Enqueue(40);
             queue.Enqueue(50);
 
-            Console.Write("Original Queue: ");
-            foreach (var item in queue) Console.Write(item + " ");
-            Console.WriteLine();
-
+            PrintItems("Original Queue: ", queue);
             Q7.ReverseQueueWithStack(queue);
-
-            Console.Write("Reversed Queue: ");
-            foreach (var item in queue) Console.Write(item + " ");
-            Console.WriteLine();
+            PrintItems("Reversed Queue: ", queue);
         }
 
         private static void RunQ8()
         {
             Console.WriteLine("--- Testing Q8: Check Balanced Parentheses ---");
-            string test1 = "[()]{}";
-            string test2 = "([)]";
+            string[] tests = { "[()]{}", "([)]" };
 
-            Console.WriteLine($"Input: {test1} -> Is Balanced? {Q8.IsBalanced(test1)}");
-            Console.WriteLine($"Input: {test2} -> Is Balanced? {Q8.IsBalanced(test2)}");
+            foreach (string test in tests)
+            {
+                string result = Q8.IsBalanced(test) ? "Balanced" : "Not Balanced";
+                Console.WriteLine($"Input: \"{test}\" -> {result}");
+            }
         }
 
         private static void RunQ9()
@@ -213,15 +202,9 @@ namespace CSharpAdvanced_Task
             Console.WriteLine("--- Testing Q9: Bubble Sort ---");
             int[] arr = { 64, 34, 25, 12, 22, 11, 90 };
 
-            Console.Write("Before Sorting: ");
-            foreach (var item in arr) Console.Write(item + " ");
-            Console.WriteLine();
-
+            PrintItems("Before Sorting: ", arr);
             Q9.BubbleSort(arr);
-
-            Console.Write("After Bubble Sort: ");
-            foreach (var item in arr) Console.Write(item + " ");
-            Console.WriteLine();
+            PrintItems("After Bubble Sort: ", arr);
         }
 
         private static void RunFixedSizeListTests()
@@ -229,7 +212,6 @@ namespace CSharpAdvanced_Task
             Console.WriteLine("--- Testing Q10-Q12: FixedSizeList<T> ---");
 
             FixedSizeList<string> list = new FixedSizeList<string>(3);
-
             Console.WriteLine($"Capacity created: {list.Capacity}");
 
             list.Add("A");
@@ -239,59 +221,17 @@ namespace CSharpAdvanced_Task
 
             Console.WriteLine($"Element at index 1: {list.Get(1)}");
             Console.WriteLine($"Element at index 2 (Indexer): {list[2]}");
-
-            try
-            {
-                list.Add("D");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
-            }
-
-            try
-            {
-                Console.WriteLine(list[5]);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
-            }
         }
 
         private static void RunRangeTests()
         {
-            Console.WriteLine("--- Testing Q13-Q15: Range<T> with Integers ---");
+            Console.WriteLine("--- Testing Q13-Q15: Range<T> ---");
 
             Range<int> intRange = new Range<int>(10, 50);
             Console.WriteLine("Range created with Min: 10, Max: 50");
             Console.WriteLine($"Is 25 in range? {intRange.IsInRange(25)}");
             Console.WriteLine($"Is 55 in range? {intRange.IsInRange(55)}");
             Console.WriteLine($"Range Length: {intRange.Length()}");
-
-            try
-            {
-                Range<int> invalidRange = new Range<int>(60, 20);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
-            }
-
-            Console.WriteLine("\n--- Testing Range<T> with Strings ---");
-            Range<string> stringRange = new Range<string>("A", "Z");
-            Console.WriteLine("String Range created with Min: A, Max: Z");
-            Console.WriteLine($"Is 'M' in range? {stringRange.IsInRange("M")}");
-            Console.WriteLine($"Is 'a' in range? {stringRange.IsInRange("a")}");
-
-            try
-            {
-                var len = stringRange.Length();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}");
-            }
         }
 
         private static List<Book> GetSampleBooks()
@@ -302,6 +242,19 @@ namespace CSharpAdvanced_Task
                 new Book("789-101", "Clean Architecture", new string[] { "Mohamed" }, new DateTime(2024, 11, 10), 300.5m),
                 new Book("112-233", "Design Patterns in C#", new string[] { "Khaled", "Omar" }, new DateTime(2023, 6, 20), 180.0m)
             };
+        }
+
+        private static void RunQ16()
+        {
+            Console.WriteLine("--- Testing Q16: Book & BookFunctions ---");
+            Book book = GetSampleBooks()[0];
+
+            Console.WriteLine($"ToString(): {book}");
+            Console.WriteLine($"GetTitle: {BookFunctions.GetTitle(book)}");
+            Console.WriteLine($"GetAuthors: {BookFunctions.GetAuthors(book)}");
+            Console.WriteLine($"GetPrice: {BookFunctions.GetPrice(book)}");
+            Console.WriteLine($"GetISBN: {BookFunctions.GetISBN(book)}");
+            Console.WriteLine($"GetPublicationDate: {BookFunctions.GetPublicationDate(book)}");
         }
 
         private static void RunDelegateQ17()
@@ -320,16 +273,17 @@ namespace CSharpAdvanced_Task
 
         private static void RunDelegateQ19()
         {
-            Console.WriteLine("--- Testing Q19: Anonymous Method (GetAuthors) ---");
+            Console.WriteLine("--- Testing Q19: Anonymous Method (GetISBN) ---");
             var books = GetSampleBooks();
-            LibraryEngine.ProcessBooks(books, delegate (Book B) {
-                return B.Authors != null ? string.Join(" & ", B.Authors) : "No Author";
+            LibraryEngine.ProcessBooks(books, delegate (Book B)
+            {
+                return B.ISBN;
             });
         }
 
         private static void RunDelegateQ20()
         {
-            Console.WriteLine("--- Testing Q20: Lambda Expression (PublicationDate) ---");
+            Console.WriteLine("--- Testing Q20: Lambda Expression (GetPublicationDate) ---");
             var books = GetSampleBooks();
             LibraryEngine.ProcessBooks(books, B => B.PublicationDate.ToShortDateString());
         }

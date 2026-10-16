@@ -7,7 +7,7 @@ namespace CSharpAdvanced_Task.Collections
     {
         public static void Reverse(ArrayList list)
         {
-            if (list == null || list.Count <= 0) return;
+            if (list == null || list.Count < 2) return;
 
             int left = 0;
             int right = list.Count - 1;

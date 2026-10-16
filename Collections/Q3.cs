@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Immutable;
+using System.Globalization;
 
 namespace CSharpAdvanced_Task.Collections
 {
@@ -40,23 +41,21 @@ namespace CSharpAdvanced_Task.Collections
         }
 
         
-        private static int CountGreaterThanX(int[] arr,int x)
+        private static int CountGreaterThanX(int[] sorted,int x)
         {
-            int index = Array.BinarySearch(arr, x);
+            int low = 0, high = sorted.Length;
 
-            if (index < 0)
+            while (low < high)
             {
-                index = ~index;
-            }
-            else
-            {
-                while (index < arr.Length && arr[index] == x)
-                {
-                    index++;
-                }
+                int mid = low + (high - low) / 2;
+
+                if (sorted[mid] <= x)
+                    low = mid + 1;
+                else
+                    high = mid;
             }
 
-            return arr.Length - index;
+            return sorted.Length - low;
         }
 
 
